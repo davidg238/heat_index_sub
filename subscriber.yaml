@@ -1,0 +1,8 @@
+# filename: subscriber.yaml
+
+name: subscriber
+entrypoint: subscriber.toit
+
+triggers:
+    on_pubsub_topic:
+        - "cloud:heat_index"
